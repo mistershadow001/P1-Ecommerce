@@ -61,7 +61,7 @@ export default function Product() {
           </h2>
           <div className="grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:gap-x-8">
             {products.map((product) => (
-              <ProductCard key={product.id} product={product} addToCart={addToCart} />
+              <ProductCard key={product.id} product={product}  />
             ))}
           </div>
         </section>
