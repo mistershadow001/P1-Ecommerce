@@ -1,9 +1,12 @@
 import React from 'react'
 import MainCarousel from '../Components/HomeCarosal/MainCarousel'
 import HomeSectionCarousel from '../Components/HomeSectionCarousal/HomeSectionCarousel'
-import MensClothing from '../Data/MensClothing'
-import shoes from '../Data/Shoes'
 import Footer from '../Components/Footer/Footer'
+import productsData from '../Components/Product/ProductsData'
+
+
+const MensClothing =productsData.filter((product)=>product.category==="Mens Clothing");
+const shoes = productsData.filter((item)=>item.category==="Shoes");
 
 function HomePage() {
   return (

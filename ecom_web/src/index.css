@@ -14,16 +14,7 @@ code {
 .mr{
   margin: 20px;
 }
-.ProductCard.text{
-  transition: transform .3 ease-out;
-}
-.ProductCard:hover.text{
-  transform: translateY(-1rem);
-}
 
-.ProductCard:hover.text{
-  box-shadow: rgb(33, 32, 32);
-}
 /* Navigation bar */
 
 
